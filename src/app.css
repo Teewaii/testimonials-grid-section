@@ -22,13 +22,12 @@
 body {
     background-color: var(--LightGrayishBlue);
     font-family: var(--fontFamily);
-    padding: 30px 20px;
 }
 
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 30px 20px;
+    padding: 50px 30px;
     grid-gap: 20px;
 }
 
@@ -143,9 +142,9 @@ body {
         grid-template-rows: repeat(2, minmax(1fr, auto));
         gap: 20px;
         transform: scale(.7);
-        margin-bottom: -110px;
-        margin-top: -10%;
-        padding: 30px 10px;
+        padding: 0;
+        margin: auto;
+        margin-top: -2%;
     }
 
     .card {
