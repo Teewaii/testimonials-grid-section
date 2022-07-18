@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;600&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;600;700&family=Josefin+Sans:wght@100;300;400;600&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Libre+Franklin:wght@300;600;700&family=Manrope:wght@800&family=Montserrat:wght@500;700&family=Roboto:wght@300;700&display=swap');
+
+:root {
+
+    --ModerateViolet: hsl(263, 55%, 52%);
+    --VeryDarkGrayishBlue: hsl(217, 19%, 35%);
+    --VeryDarkBlackishBlue: hsl(219, 29%, 14%);
+    --White: hsl(0, 0%, 100%);
+
+    --LightGray: hsl(0, 0%, 81%);
+    --LightGrayishBlue: hsl(210, 46%, 95%);
+    --fontFamily: 'Barlow', sans-serif;
+
+}
+
+
+body {
+    background-color: var(--LightGrayishBlue);
+    font-family: var(--fontFamily);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px 20px;
+}
+
+.card {
+    padding: 20px 35px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    justify-content: left;
+    position: relative;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, .1);
+    z-index: 200;
+}
+
+.card p {
+    font-weight: 500;
+    color: var(--LightGray);
+    font-size: 1rem;
+    z-index: 200;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: -10px;
+}
+
+.header {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.headShot {
+    padding: 3px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 255, 255, .5);
+    margin-right: 20px;
+}
+
+.name {
+    font-size: 1.2rem;
+    margin-bottom: -15px;
+}
+
+.status {
+    font-size: 1rem;
+    color: var(--LightGray)
+}
+
+.one {
+    background-color: var(--ModerateViolet);
+    color: white;
+    position: relative;
+}
+
+.quot-mark {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    height: 135px;
+    z-index: -1;
+}
+
+.two {
+    background-color: var(--VeryDarkGrayishBlue);
+    color: white;
+    position: relative;
+}
+
+.three {
+    color: var(--VeryDarkGrayishBlue);
+}
+
+.three p {
+    color: var(--VeryDarkGrayishBlue);
+}
+
+.four {
+    background-color: var(--VeryDarkBlackishBlue);
+    color: white;
+    position: relative;
+}
+
+
+.five {
+    color: var(--VeryDarkGrayishBlue);
+}
+
+.five p {
+    color: var(--VeryDarkGrayishBlue);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
