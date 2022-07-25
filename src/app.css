@@ -180,12 +180,12 @@ body {
 @media (min-width:1024px) {
     .container {
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(2, minmax(1fr, auto));
+        grid-template-rows: repeat(2, minmax(200px, 1fr));
         gap: 20px;
         padding: 0;
         margin: auto;
         margin-top: 3%;
-        width: 1500px;
+        max-width: 1500px;
         transform: scale(.8);
     }
 
